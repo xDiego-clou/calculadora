@@ -32,7 +32,7 @@
         const base = parseFloat(document.getElementById('base').value);
         if (!base) return alert("Por favor ingresa un monto válido");
 
-        const total = (base * 1.43) + 70; 
+        const total = (base * 1.43); 
         const especial = total * 0.20;  
         const semanal = (total - especial) / 37; 
 
